@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div>
+      <h1 id="task">Task</h1>
+      <h2 class="task2">Task 2</h2>
+      <h3>ok</h3>
+      <!--div class="task3">task1</div-->
+      <form id='task-form'>
+        <input type="text" name='task' id='etask' value="Add another task">
+        <label for="task">New Task</label>
+        <input type="submit" value="Add Task">
+      </form>
+      <ul>
+        <li class="task3">
+         <a>task1</a> 
+        </li>
+        <li class="task3"><a>task2</a> </li>
+        <li class="task3"><a>task3</a> </li>
+        <li class="task3"><a>task4</a> </li>
+        <li class="task3"><a>task5</a> </li>
+      </ul>
+      <a href="#" class="clear-task">Clear Task</a>
+    </div>
+   
+    <!--script>
+      // selector
+      console.log(document.getElementById('task').id);
+      var task_element=  document.getElementById('task');
+      document.getElementById('task').style.backgroundColor="black";
+      document.getElementById('task').style.color="white";
+
+      // change task
+      task_element.textContent="Hello";
+      //task_element.innerText="inner text";
+      //task_element.innerHTML="Html";
+
+      // query selector:
+      // only single element selector(first element)
+      console.log(document.querySelector('#task'));
+      console.log(document.querySelector('.task2'));
+      console.log(document.querySelector('h3'));
+      // change element
+      // change only first element
+      document.querySelector('li').style.color="red";
+      // change only last element
+      document.querySelector('li:last-child').style.color="blue";
+    
+      // change element by className:
+      document.getElementsByClassName('task3')[1].style.backgroundColor="black";
+      var list_item = document.getElementsByClassName('task3');
+      list_item[2].style.color="red";
+      console.log(list_item);
+      var list_items = document.querySelector('ul').getElementsByClassName('task3');
+      console.log(list_items);
+
+      // change element by tagName:
+      //document.getElementsByTagName('li')[2].style.backgroundColor="black";
+      var list_item = document.getElementsByTagName('li');
+      list_item[2].style.color="red";
+      console.log(list_item);
+      var list_items = document.querySelector('ul').getElementsByTagName('li');
+      console.log(list_items);
+
+
+      // query selector all:
+      var items = document.querySelectorAll('ul li');
+      console.log(items);
+      items.forEach(function(item){
+        item.style.color="white";
+        item.style.backgroundColor='black';
+      })
+    </script>
+    <script src="../js/index.js"></script>
+    <script src="../js/createelement.js"></script-->
+    <script src="../js/eventoption.js"></script>
+</body>
+</html>
