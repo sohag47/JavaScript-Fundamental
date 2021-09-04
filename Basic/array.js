@@ -29,5 +29,5 @@ fruits.shift();
 console.log(fruits);
 
 //! Array Properties and Methods
-// console.log(cars.length);
-// console.log(cars.sort());
+console.log(cars.length);
+console.log(cars.sort());
