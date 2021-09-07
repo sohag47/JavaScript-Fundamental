@@ -14,6 +14,9 @@ let Height = 5.6;
 let MaritalStatus = false;
 let JobStatus = null;
 
+console.log(Age + Height + FullName);
+console.log(FullName + Age + Height);
+
 let Profile = `
 Hello, My Name is ${FullName},
 Age is ${Age},
@@ -22,3 +25,16 @@ Marital Status: ${MaritalStatus},
 Job Status: ${JobStatus}
 `;
 console.log(Profile);
+
+let x1 = 1e-3;
+console.log(x1)
+
+
+//! show data types
+console.log(typeof(FullName));
+console.log(typeof(Age));
+console.log(typeof(Height));
+console.log(typeof(MaritalStatus));
+console.log(typeof(JobStatus));
+console.log(typeof(x1));
+console.log(typeof(Profile));
